@@ -1,0 +1,6 @@
+framework module Pods_PresentItemsOnMap {
+  umbrella header "Pods-PresentItemsOnMap-umbrella.h"
+
+  export *
+  module * { export * }
+}

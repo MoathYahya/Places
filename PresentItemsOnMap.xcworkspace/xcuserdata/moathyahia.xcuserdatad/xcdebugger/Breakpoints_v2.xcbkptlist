@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "11A04AEF-DEF7-44CE-9EF6-14212688963D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8F95A54-2CA5-43EA-B26F-645E1231718B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PresentItemsOnMap/Controllers/PlacesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "mapView(_:didTap:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8F95A54-2CA5-43EA-B26F-645E1231718B - e44fc3064382bc88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "1808">
+               </Location>
+               <Location
+                  uuid = "A8F95A54-2CA5-43EA-B26F-645E1231718B - e44fc3064382bf4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "2288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PresentItemsOnMap/Controllers/PlacesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "mapView(_:didTap:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382bc25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382bda1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "1712">
+               </Location>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382bd80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "1724">
+               </Location>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382bdc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382bd80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "1760">
+               </Location>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382b212"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "1104">
+               </Location>
+               <Location
+                  uuid = "8B118D1D-9C9E-4C50-8159-3C3934A9ED7D - e44fc3064382b3d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "836">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6939A3CA-CF8F-43EF-95C3-E908627246E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PresentItemsOnMap/Controllers/PlacesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "mapView(_:didTap:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6939A3CA-CF8F-43EF-95C3-E908627246E0 - e44fc3064382b402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "6939A3CA-CF8F-43EF-95C3-E908627246E0 - e44fc3064382b402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "6939A3CA-CF8F-43EF-95C3-E908627246E0 - e44fc3064382b402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PresentItemsOnMap.PlacesViewController.mapView(_: __C.GMSMapView, didTap: __C.GMSMarker) -&gt; Swift.Bool"
+                  moduleName = "PresentItemsOnMap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moathyahia/Desktop/PresentItemsOnMap/PresentItemsOnMap/Controllers/PlacesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
