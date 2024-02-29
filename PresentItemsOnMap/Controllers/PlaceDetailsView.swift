@@ -29,7 +29,7 @@ class PlaceDetailsView: UIViewController {
         configView()
     }
     
-    func configView() {
+    private func configView() {
         view.backgroundColor = .clear
         backView.backgroundColor = .black.withAlphaComponent(Constants.FloatConstants.kZeroSix)
         backView.alpha = .zero
@@ -73,7 +73,7 @@ class PlaceDetailsView: UIViewController {
         }
     }
     
-    @objc func doneTapped(_ sender: UIButton) {
+    @objc func doneTapped() {
         hide()
     }
 }
