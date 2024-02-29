@@ -32,15 +32,12 @@ class PlacesViewController: UIViewController, UICollectionViewDelegate, UICollec
         mapView.delegate = self
         
         for place in viewModel.placesModel {
-            
             let location = CLLocationCoordinate2D(latitude: place.latitude, longitude: place.longtitude)
             let marker = GMSMarker()
             marker.position = location
             marker.snippet = place.name
             marker.userData = place
             marker.map = mapView
-            marker.zIndex = Int32(place.id)
-            
         }
     }
     
@@ -63,7 +60,7 @@ class PlacesViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return viewModel.numberOfItemInSection()
+        return viewModel.numberOfItemInSection
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -71,11 +68,9 @@ class PlacesViewController: UIViewController, UICollectionViewDelegate, UICollec
             return UICollectionViewCell()
         }
         
-        let temp = viewModel.placesModel[indexPath.row]
-            
+        let temp = viewModel.placesModel[indexPath.row]            
         cell.titleLabel.text = temp.name
         cell.placeImage.image = UIImage(named: temp.image)
-        
         return cell
     }
      
@@ -93,7 +88,7 @@ extension PlacesViewController: GMSMapViewDelegate {
         
         let placeModel = marker.userData as? PlaceModel
 
-        if viewModel.clickedOnPlace(placeId: Int(marker.zIndex)) {
+        if viewModel.clickedOnPlace(placeId: placeModel?.id ?? .zero) {
             let detailsView = PlaceDetailsView()
             detailsView.appear(sender: self, tempModel: placeModel)
             return true
@@ -103,7 +98,5 @@ extension PlacesViewController: GMSMapViewDelegate {
         customMarkerView.fillData(title: placeModel?.name ?? "", image: placeModel?.image ?? "")
         marker.iconView = customMarkerView
         return true
-    }
-    
+    }    
 }
-

@@ -42,7 +42,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1pF-84-eaS">
-                            <rect key="frame" x="30" y="309.33333333333331" width="301" height="18"/>
+                            <rect key="frame" x="30" y="299.33333333333331" width="301" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -69,7 +69,7 @@
                         <constraint firstItem="AG2-X0-ZEW" firstAttribute="trailing" secondItem="xlC-0q-6NC" secondAttribute="trailing" constant="6" id="DnG-zM-e2G"/>
                         <constraint firstItem="xlC-0q-6NC" firstAttribute="top" secondItem="WOY-9f-Ccx" secondAttribute="top" constant="20" id="LPD-QG-ZUP"/>
                         <constraint firstItem="AG2-X0-ZEW" firstAttribute="trailing" secondItem="1pF-84-eaS" secondAttribute="trailing" constant="30" id="Ufo-bk-4Fz"/>
-                        <constraint firstItem="1pF-84-eaS" firstAttribute="top" secondItem="GX1-iL-YEl" secondAttribute="bottom" constant="30" id="ZKs-wk-070"/>
+                        <constraint firstItem="1pF-84-eaS" firstAttribute="top" secondItem="GX1-iL-YEl" secondAttribute="bottom" constant="20" id="ZKs-wk-070"/>
                         <constraint firstItem="AG2-X0-ZEW" firstAttribute="trailing" secondItem="GX1-iL-YEl" secondAttribute="trailing" constant="30" id="c8w-6H-usf"/>
                         <constraint firstItem="GX1-iL-YEl" firstAttribute="leading" secondItem="AG2-X0-ZEW" secondAttribute="leading" constant="30" id="hDj-iN-Aya"/>
                         <constraint firstItem="1pF-84-eaS" firstAttribute="leading" secondItem="AG2-X0-ZEW" secondAttribute="leading" constant="30" id="nSi-Ms-NuT"/>
@@ -80,7 +80,7 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="71" y="22"/>
+            <point key="canvasLocation" x="70.992366412213741" y="21.83098591549296"/>
         </view>
     </objects>
     <resources>

@@ -10,9 +10,9 @@ import Foundation
 class PlacesViewModel {
     
     var placesModel = [PlaceModel]()
-    var clickedSet = Set<Int>()
+    private var clickedSet = Set<Int>()
         
-    func numberOfItemInSection() -> Int {
+    var numberOfItemInSection: Int {
         return placesModel.count
     }
     

@@ -17,9 +17,13 @@ class PlaceCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        placeImage.layer.cornerRadius = Constants.FloatConstants.kEight
-        placeImage.layer.shadowOpacity = Float(Constants.FloatConstants.kOne)
-        placeImage.layer.masksToBounds = true
+        applyImageStyle(to: placeImage)
     }
-
+    
+    private func applyImageStyle(to view: UIView) {
+        let layer = view.layer
+        layer.cornerRadius = Constants.FloatConstants.kEight
+        layer.shadowOpacity = Float(Constants.FloatConstants.kOne)
+        layer.masksToBounds = true
+    }
 }

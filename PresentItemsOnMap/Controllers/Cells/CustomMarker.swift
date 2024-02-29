@@ -11,14 +11,21 @@ class CustomMarker: UIView {
 
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var markerImage: UIImageView!
-    
+    private static var nib: UINib?
+
     override func draw(_ rect: CGRect) {
         markerImage.layer.cornerRadius = markerImage.frame.size.width / Constants.FloatConstants.kTwo
         markerImage.layer.masksToBounds = true
     }
     
     class func loadFromNib() -> CustomMarker {
-        return Bundle.main.loadNibNamed(Constants.ViewsName.customMarker, owner: nil, options: nil)?.first as! CustomMarker
+        if let nib = Self.nib {
+            return nib.instantiate(withOwner: nil, options: nil).first as! CustomMarker
+        } else {
+            let newNib = UINib(nibName: Constants.ViewsName.customMarker, bundle: nil)
+            Self.nib = newNib
+            return newNib.instantiate(withOwner: nil, options: nil).first as! CustomMarker
+        }
     }
     
     func fillData(title: String, image: String) {

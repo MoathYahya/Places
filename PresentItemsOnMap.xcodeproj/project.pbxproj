@@ -99,15 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34778C892B8F1BDE00BA7A08 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				34778C8E2B8F209500BA7A08 /* PlaceDetailsView.swift */,
-				34778C8F2B8F209500BA7A08 /* PlaceDetailsView.xib */,
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
 		34792FB42B8CF9630045289F = {
 			isa = PBXGroup;
 			children = (
@@ -191,8 +182,9 @@
 		34792FF72B8DB43F0045289F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				34778C892B8F1BDE00BA7A08 /* CustomViews */,
 				34931EC42B8DD6D300D54A6B /* Cells */,
+				34778C8E2B8F209500BA7A08 /* PlaceDetailsView.swift */,
+				34778C8F2B8F209500BA7A08 /* PlaceDetailsView.xib */,
 				34792FC42B8CF9630045289F /* PlacesViewController.swift */,
 			);
 			path = Controllers;
@@ -603,7 +595,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AV7QV5Z2V4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PresentItemsOnMap/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Places;
@@ -633,7 +625,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AV7QV5Z2V4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PresentItemsOnMap/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Places;

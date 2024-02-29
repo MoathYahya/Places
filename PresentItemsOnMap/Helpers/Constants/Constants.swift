@@ -30,7 +30,6 @@ struct Constants {
         static let kTwo: Int = 2
         static let kFive: Int = 5
         static let kEight: Int = 8
-
     }
     
     struct FloatConstants {
@@ -44,7 +43,5 @@ struct Constants {
         static let kEleven: Float = 11
         static let kFourteen: Float = 14
         static let kThirtyFive: CGFloat = 35
-
     }
-    
 }

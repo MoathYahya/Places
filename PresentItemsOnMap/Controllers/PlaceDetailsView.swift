@@ -46,7 +46,6 @@ class PlaceDetailsView: UIViewController {
             self.fillData(title: tempModel?.name ?? "",
                           details: tempModel?.details ?? "",
                           imageString: tempModel?.image ?? "")
-                
         }
     }
     
@@ -77,4 +76,3 @@ class PlaceDetailsView: UIViewController {
         hide()
     }
 }
-
